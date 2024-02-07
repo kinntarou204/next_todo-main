@@ -31,7 +31,6 @@ const TodoForm = ({ onSaveTodo, autoCompleteTags = [] }: TodoFormProps) => {
 
             <TagsInput
                 tags={tags}
-                onTagsChange={handleTagChange}
                 placeholder="Add Tags..."
                 autoCompleteTags={autoCompleteTags} />
 

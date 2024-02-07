@@ -1,4 +1,4 @@
-import { Todo } from "@/app/models/Todo";
+import { Todo } from "@/app/components/models/Todo";
 import { Badge } from "@/app/components/tag/Badge";
 
 export interface TodoDetailProps {

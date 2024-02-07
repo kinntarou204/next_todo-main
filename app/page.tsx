@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { postTodos, getTodos } from './services/TodoService';
-import { Todo, initialAutoCompleteTags, loadTags } from '@/app/models/Todo';
+import { Todo, initialAutoCompleteTags, loadTags } from '@/app/components/models/Todo';
 import TodoList from '@/app/components/todo/TodoList';
 import TodoForm from '@/app/components/todo/TodoForm';
 import Loading from '@/app/components/Loading';

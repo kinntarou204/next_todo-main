@@ -1,4 +1,4 @@
-import { Todo } from "../models/Todo";
+import { Todo } from "../components/models/Todo";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "";
 const TODO_API_PATH = "/data/todo.json";

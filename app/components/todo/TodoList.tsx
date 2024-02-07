@@ -1,6 +1,6 @@
 "use client"
 
-import { Todo } from "@/app/models/Todo";
+import { Todo } from "@/app/components/models/Todo";
 import TodoDetail from "@/app/components/todo/TodoDetail";
 
 interface TodoListProps {
